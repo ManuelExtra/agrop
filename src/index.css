@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.poppins-black{
+  font-family: 'Poppins', sans-serif;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.main-color{
+  color: #048053;
+}
+
+.main-color:hover{
+  color: #03422b;;
+}
+
+.main-color-active{
+  font-weight: bold;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #048053;
+  border-bottom-width: px;
+}
+.main-bgcolor{
+  background-color: #048053;
+}
+.main-bgcolor:hover{
+  background-color: #03422b;
+  /* color: white; */
+}
+.text-main-color{
+  color: #F25F34
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
