@@ -13,6 +13,7 @@
         "ethers": "^5.7.2",
         "flowbite": "^1.5.4",
         "flowbite-react": "^0.3.5",
+        "ipfs-api": "^26.1.2",
         "js-cookie": "^3.0.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
