@@ -25,9 +25,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-.main-color-nohover{
-    color: #048053;
-}
 
 .main-color {
     color: #048053;
@@ -50,30 +47,8 @@ code {
     background-color: #03422b;
     /* color: white; */
 }
-
-.main2-bgcolor{
-    background-color: #FABD15;
-}
-
-.black-outline{
-    border: 1px solid black;
-}
-
-.main2-bgcolor:hover{
-    background-color: #8f6c0c;
-}
-
 .text-main-color {
     color: #f25f34;
-}
-.bg-main-color {
-    background-color: #f25f34;
-}
-.bg-main-color:hover {
-    background-color: #8b3115;
-}
-.white-outline{
-    border: 1px solid white;
 }
 
 .poppins {
@@ -98,10 +73,6 @@ code {
     border-radius: 10px;
 }
 
-.box_ {
-    border-radius: 10px;
-}
-
 .hubBox {
     background-color: #f6f6f6;
     border-radius: 20px;
@@ -117,6 +88,93 @@ code {
     width: 70%;
 }
 
+.leftSide {
+    background-color: #f6f2e4;
+}
+
+.profileImageStyle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.iconStyle {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button {
+    border-left: 5px solid #047f53;
+}
+
+.inActiveButton {
+    border-left: 5px solid #f6f2e4;
+}
+
+.agropLogo {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    color: #047f53;
+}
+
+.hubBox {
+    border-radius: 20px;
+    background-color: #f6f6f6;
+}
+
+.verifiedStyle {
+    width: 30px;
+    height: 30px;
+}
+
+.createHub {
+    background-color: #dcf1ea;
+    width: 50%;
+}
+
+.creatHubIconStyle {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.shadow {
+    align-self: flex-start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.discount {
+    background-color: #f25f34;
+}
+
 .type-circle {
-    list-style-type: disc 
+    list-style-type: disc;
+}
+
+.box_ {
+    border-radius: 10px;
+}
+
+.bg-main-color {
+    background-color: #f25f34;
+}
+.bg-main-color:hover {
+    background-color: #8b3115;
+}
+
+.main2-bgcolor {
+    background-color: #fabd15;
+}
+
+.black-outline {
+    border: 1px solid black;
+}
+
+.main2-bgcolor:hover {
+    background-color: #8f6c0c;
 }
