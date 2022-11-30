@@ -1,45 +1,45 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Header from './Header';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Header from "./Header";
 
 export default function ValidLink() {
-  const [urlData, setUrlData] = useState(
-    JSON.parse(sessionStorage.getItem('_phish_details'))
-  );
-  console.log(urlData);
-  return (
-    <>
-      <Header />
-      <div className="m-auto w-50">
-        <div className="mt-5 text-center ">
-          <Link to="/">
-            <img
-              src="/check.png"
-              alt="close"
-              className="img-fluid"
-              style={{ width: '10em' }}
-            />
-          </Link>
-          <br />
-          <p className="display-5 text-white">Link is valid</p>
+    const [urlData, setUrlData] = useState(
+        JSON.parse(sessionStorage.getItem("_phish_details"))
+    );
+    console.log(urlData);
+    return (
+        <>
+            <Header />
+            <div className="m-auto w-50">
+                <div className="mt-5 text-center ">
+                    <Link to="/">
+                        <img
+                            src="/check.png"
+                            alt="close"
+                            className="img-fluid"
+                            style={{ width: "10em" }}
+                        />
+                    </Link>
+                    <br />
+                    <p className="display-5 text-white">Link is valid</p>
 
-          {urlData.ValidURL && (
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src={urlData.WellFormedURL}
-                allowfullscreen
-                style={{ width: '40em', height: '20em' }}
-              ></iframe>
-            </div>
-          )}
-          <div className="text-center">
-            <Link to="/" className="btn btn-dark">
-              Go Back
-            </Link>
-          </div>
-        </div>
-        {/* <div className="card mt-3 py-3">
+                    {urlData.ValidURL && (
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe
+                                class="embed-responsive-item"
+                                src={urlData.WellFormedURL}
+                                allowfullscreen
+                                style={{ width: "40em", height: "20em" }}
+                            ></iframe>
+                        </div>
+                    )}
+                    <div className="text-center">
+                        <Link to="/" className="btn btn-dark">
+                            Go Back
+                        </Link>
+                    </div>
+                </div>
+                {/* <div className="card mt-3 py-3">
           <div className="card-body">
             <h5>Sign in your account</h5>
             <form className="">
@@ -66,7 +66,7 @@ export default function ValidLink() {
             </form>
           </div>
         </div> */}
-      </div>
-    </>
-  );
+            </div>
+        </>
+    );
 }
