@@ -78,12 +78,14 @@ export default function Header(props) {
           </Navbar.Brand>
         </Link>
         <div className="flex md:order-2">
-          <Button
-            color="success"
-            className="raleway main-bgcolor main-bgcolor:hover"
-          >
-            Launch App
-          </Button>
+          <Link to={'/launch-app'}>
+            <Button
+              color="success"
+              className="raleway main-bgcolor main-bgcolor:hover"
+            >
+              Launch App
+            </Button>
+          </Link>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
@@ -114,14 +116,14 @@ export default function Header(props) {
           </Navbar.Link>
           <Navbar.Link className="no-underline">
             <Link
-              to={'/developers'}
+              to={'/developer'}
               className={`raleway ${
-                location.pathname === '/developers'
+                location.pathname === '/developer'
                   ? 'main-color main-color-active'
                   : 'text-dark'
               } no-underline`}
             >
-              Developers
+              Developer
             </Link>
           </Navbar.Link>
 
